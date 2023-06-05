@@ -6,9 +6,9 @@
 }
 
 .wall--race {
-    background-image: url('./race_wall.png');
+    background-image: url('../race_wall.png');
 }
 
 .wall--garden {
-    background-image: url('./garden_wall.png');
+    background-image: url('../garden_wall.png');
 }

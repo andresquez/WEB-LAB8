@@ -43,7 +43,7 @@ table {
 
 @font-face {
   font-family: 'Rubik Puddles';
-  src: url('fonts/RubikPuddles.ttf') format('truetype');
+  src: url('../fonts/RubikPuddles.ttf') format('truetype');
 }
 
 body {

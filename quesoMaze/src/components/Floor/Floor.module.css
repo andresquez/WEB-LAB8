@@ -6,14 +6,14 @@
 }
 
 .floor--garden {
-    background-image: url('./garden_floor.png');
+    background-image: url('../garden_floor.png');
     /* border-color: aqua; */
 }
 
 .floor--race {
-    background-image: url('./race_floor.png');
+    background-image: url('../race_floor.png');
 }
 
 .floor--goal {
-    background-image: url('./garden_goal.png');
+    background-image: url('../garden_goal.png');
 }
