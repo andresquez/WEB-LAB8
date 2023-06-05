@@ -1,11 +1,12 @@
 import './App.css'
+import Maze from './components/Maze/Maze'
 
 function App() {
 
   return (
-    <>
-      <h1>Queso Maze</h1> 
-    </>
+    <div className="App">
+      <Maze />
+    </div>
   )
 }
 

@@ -1,0 +1,26 @@
+.modalOverlay {
+  background-image: 'https://img.freepik.com/vector-premium/vector-ilustracion-icono-dibujos-animados-queso_484148-128.jpg';
+  width: 50vw;
+  height: 80vh;
+  background-color: #fcf300;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 9999;
+  /* border: 2px solid red; */
+}
+
+.modalContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  position: relative;
+  height: 100%;
+  width: 100%;
+  overflow-y: auto;
+  text-align: center;
+}

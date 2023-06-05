@@ -1,0 +1,39 @@
+.player {
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.player--car--up {
+    background-image: url('./car_up.png');
+}
+
+.player--car--down {
+    background-image: url('./car_down.png');
+}
+
+.player--car--right {
+    background-image: url('./car_right.png');
+}
+
+.player--car--left {
+    background-image: url('./car_left.png');
+}
+
+.player--pogo--up {
+    background-image: url('./pogo_up.png');
+}
+
+.player--pogo--down {
+    background-image: url('./pogo_down.png');
+}
+
+.player--pogo--right {
+    background-image: url('./pogo_right.png');
+}
+
+.player--pogo--left {
+    background-image: url('./pogo_left.png');
+}

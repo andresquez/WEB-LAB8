@@ -1,0 +1,128 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .inputContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  .input {
+    padding: 5px;
+    width: 250px;
+    height: 50px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    margin-right: 10px;
+    box-sizing: border-box;
+  }
+  
+  .input:focus {
+    outline: none;
+    border-color: #e79130;
+  }
+  
+  .button {
+    padding: 12px 24px;
+    background-color: #d6a058;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    color: #fff;
+    transition: background-color 0.3s;
+    font-family: 'Rubik Puddles';
+  }
+  
+  .button:hover {
+    background-color: #122a65;
+  }
+  
+  .pillsContainer {
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+  
+  .pill {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 16px;
+    background-color: #ffffff;
+    color: #000;
+    border-radius: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-weight: bold;
+    border: 2px solid transparent;
+  }
+  
+  .pillSelected {
+    background-color: #eb9136;
+    color: #fff;
+    border-color: #eb9136;
+  }
+  
+  .pill input[type='radio'] {
+    display: none;
+  }
+  
+  .pill:hover {
+    background-color: #8e2222;
+  }
+  
+  .skinPreview {
+    font-size: 16px;
+    margin-left: 10px;
+    max-width: 70px;
+  }
+  
+  .inputContainer:not(:last-child) {
+    margin-bottom: 20px;
+  }
+  
+  .labeltext {
+    margin-right: 10px;
+    width: 150px;
+    font-weight: bold;
+    flex-shrink: 0;
+    text-align: right;
+  }
+  
+  .select {
+    padding: 5px;
+    height: 50px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    margin-right: 10px;
+    box-sizing: border-box;
+  }
+  
+  .select:focus {
+    outline: none;
+    border-color: #55f1b6;
+  }
+  
+  .select option {
+    font-size: 20px;
+  }
+  
+  .titulo{
+    font-size: 4rem;
+  }
